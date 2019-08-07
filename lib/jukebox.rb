@@ -46,6 +46,7 @@ end
 def run(songs)
   input = ""
   while input
+  help
   puts "Please enter a command:"
   input = gets.strip
     if input == "exit"
