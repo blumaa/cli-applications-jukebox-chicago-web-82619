@@ -44,9 +44,10 @@ def exit_jukebox
 end
 
 def run(songs)
+  
+  while input
   puts "Please enter a command:"
   input = gets.strip
-  while input
     if input == "exit"
       exit_jukebox
       break
